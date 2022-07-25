@@ -24,10 +24,12 @@ module.exports = {
       {
         text: '首页',
         link: '/',
+        activeMatch:'/zh/$'
       },
       {
         text: 'Reference',
         link: '/reference/cli.md',
+        activeMatch: '/reference/'
       },
     ],
     logo: '/logo.png',

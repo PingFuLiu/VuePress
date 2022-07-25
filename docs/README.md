@@ -3,7 +3,7 @@ home: true
 heroImage: /logo.png
 actions:
   - text: 快速上手 →
-    link: /zh/reference/cli.md
+    link: /reference/cli.md
     type: 'primary'
 features:
   - title: 简洁至上
