@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-b249668c","path":"/reference/config.html","title":"Config","lang":"en-US","frontmatter":{"prev":{"text":"Cli","link":"/reference/cli.md"}},"excerpt":"","headers":[],"git":{"updatedTime":1658803114000,"contributors":[{"name":"liupingfu","email":"liupf09@chinatelecom.cn","commits":2}]},"filePathRelative":"reference/config.md"}');export{e as data};

@@ -1,6 +1,6 @@
 ---
 prev:
-  text: cli
+  text: Cli
   link: /reference/cli.md
 ---
 
