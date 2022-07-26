@@ -1,2 +1,2 @@
-<template><div><h2 id="config-md-zh" tabindex="-1"><a class="header-anchor" href="#config-md-zh" aria-hidden="true">#</a> config.md zh</h2>
+<template><div><h1 id="配置" tabindex="-1"><a class="header-anchor" href="#配置" aria-hidden="true">#</a> 配置</h1>
 </div></template>

@@ -28,8 +28,15 @@ module.exports = {
           },
           {
             text: 'Reference',
-            link: '/reference/cli.md',
-            activeMatch: '/reference/'
+            children: [
+              {
+                text: 'VuePress Reference',
+                children: [
+                  '/reference/cli.md',
+                  '/reference/config.md'
+                ],
+              },
+            ],
           },
         ],
         sidebar: {
@@ -38,14 +45,8 @@ module.exports = {
               text: 'VuePress Reference',
               collapsible: true,
               children: [
-                {
-                  text: 'cli',
-                  link: '/reference/cli.md'
-                },
-                {
-                  text: 'config',
-                  link: '/reference/config.md'
-                },
+                '/reference/cli.md',
+                '/reference/config.md'
               ]
             }
           ],
@@ -54,16 +55,25 @@ module.exports = {
       '/zh/': {
         selectLanguageText: '语言',
         selectLanguageName: '简体中文',
+        contributorsText: '贡献者',
+        lastUpdatedText: '最近更新时间',
         navbar: [
           {
             text: '首页',
-            link: '/',
+            link: '/zh/',
             activeMatch:'/zh/$'
           },
           {
             text: '参考',
-            link: '/reference/cli.md',
-            activeMatch: '/reference/'
+            children: [
+              {
+                text: 'VuePress 参考',
+                children: [
+                  '/zh/reference/cli.md',
+                  '/zh/reference/config.md'
+                ],
+              },
+            ],
           },
         ],
         sidebar: {
@@ -72,14 +82,8 @@ module.exports = {
               text: 'VuePress 参考',
               collapsible: true,
               children: [
-                {
-                  text: '命令行',
-                  link: '/zh/reference/cli.md'
-                },
-                {
-                  text: '配置',
-                  link: '/zh/reference/config.md'
-                },
+                '/zh/reference/cli.md',
+                '/zh/reference/config.md'
               ]
             }
           ],
