@@ -77,6 +77,7 @@
 <h2 id="字体强调" tabindex="-1"><a class="header-anchor" href="#字体强调" aria-hidden="true">#</a> 字体强调</h2>
 <p>普通文字<em>斜体文字</em>普通文字<br>
 普通文字<strong>粗体文字</strong>普通文字<br>
+普通文字<em><strong>斜体加粗</strong></em>普通文字<br>
 普通文字<s>删除文字</s>普通文字</p>
 <h2 id="代码" tabindex="-1"><a class="header-anchor" href="#代码" aria-hidden="true">#</a> 代码</h2>
 <p>要输出一个代码片段, 需要使用重音符号 (`). 不同于预格式的代码块, 代码片段只是在普通段落中标识出代码.<br>
